@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <id>starter</id>
+    <version>5.6.2</version>
+    <packageSourceUrl>https://github.com/zverev-iv/choco-starter</packageSourceUrl>
+    <owners>zverev-iv</owners>
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <!-- This section is about the software itself -->
+    <title>Starter (Install)</title>
+    <authors>Codestuff</authors>
+    <projectUrl>http://codestuff.obninsk.ru/products_starter.html</projectUrl>
+    <copyright>2009 Codestuff</copyright>
+    <tags>starter startup services manager process processes dll memory threads priorities</tags>
+    <summary>Starter is yet another startup manager for Microsoft Windows</summary>
+    <description>As a primary purpose, Starter allows one to view and manage all the programs that are starting automatically whenever operating system is loading. It enumerates all the hidden registry entries, startup folders' items and some of the initialization files, so that the user could choose to temporarily disable selected entries, edit them, create new, or delete them permanently.
+Secondary purpose is to list all the running processes with possibility to view extended process' information (such as used DLLs, memory usage, thread count, priorities etc.), and to terminate selected process (even a Windows NT service, having enough access rights).
+Another one is Windows' services (and drivers) manager with some advanced features.
+Starter is a real Freeware and is not crippled in any way among the similar products. The user interface is pretty simple and has a lot of options that are self-explanatory.
+</description>
+    <releaseNotes>
+Fixed too aggressive settings saving while swithing between main tabs (Startups, Processes, Services).
+System memory graph was limited to 2 GB. Fixed.
+Made large annoing tooltips for startup and service items to appear only at first column of the list.
+Psapi.dll-related changes.
+Updated supplied web links (Help\Useful links and context search menu items)
+Updated NSIS-based installer to the latest version.
+Other miscellaneous changes.
+Translations update
+New: Japanese
+New: Serbian (Latin)
+Updated: Greek (Hellenic)</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
